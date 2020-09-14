@@ -1,0 +1,163 @@
+
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+div{
+	/*border: 1px solid black;*/
+	font-family: arial;
+}
+
+.head{
+	height: 150px;
+	position: relative;
+	padding: 3px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.backherf{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	padding: 5px;
+	background-color: white;
+	border-radius: 10px;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.zag{
+	margin-left: 600px;
+	margin-top: 50px;
+	font-size: 50px;
+	width: 500px;
+}
+.logo{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin-right: 25px;
+}
+.back{
+	height: 400px;
+	position: relative;
+}
+.ebalo{
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	padding: 20px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	z-index: 2;
+	background-color: white;
+}
+.backtext{
+	background-color: #E8E8E8;
+	padding-top: 100px;
+	padding-bottom: 25px;
+}
+.backtext div{
+	margin: 25px;
+	padding: 25px;
+	border-radius: 30px;
+}
+
+.me{
+	background-color: white;
+	margin-top: 200px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	height: 400px;
+	width: 70%;
+}
+.myway{
+	background-color: white;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	height: 400px;
+	width: 70%;
+}
+.herfs{
+	background-color: white;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	height: 500px;
+	width: 70%;
+}
+.herfs li{
+	margin-left: 100px;
+}
+.zag2{
+	font-size: 40px;
+	text-align: center;
+}
+.zag3{
+	font-size: 40px;
+	text-align: center;
+}
+.zag4{
+	font-size: 40px;
+	text-align: center;
+}
+.text1{
+	font-size: 25px;
+}
+.text2{
+	font-size: 25px;
+}
+.text3{
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+.foot{
+	height: 80px;
+	text-align: center;
+	background-color: #303030;
+	padding-top: 50px;
+}
