@@ -1,0 +1,175 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+
+
+div{
+	/*border: 1px solid black;*/
+	font-family: impact;
+}
+ul li{
+	text-align: left;
+	font-weight: 300;
+	font-size: 30px;
+	margin: 40px;
+	max-width: 500px; 
+	/*border: 1px solid black;*/
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	border-radius: 10px;
+	padding: 10px; 
+
+}
+.zag{
+	text-align: left;
+	margin-left: 30px;
+	font-weight: 400;
+	font-size: 35px;
+}
+.head{
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	position: relative;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+		.logo{
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin-left: 25px;
+		}
+		.mainherf{
+			position: absolute;
+			top: 0;
+			right: 0;
+			font-size: 50px;
+			margin-top: 50px;
+			margin-right: 10%; 
+		}
+
+.tusha{
+	width: 100%;
+	min-height: 100px;
+	background-color: #d3d4d6;
+	position: relative;
+}
+		.back1{
+			background: #06c9a2;
+			background: -moz-linear-gradient(left, #06C9A2 0%, #06C9A2 20%, #000000 80%, #000000 100%);
+			background: -webkit-linear-gradient(left, #06C9A2 0%,#06C9A2 20%,#000000 80%,#000000 100%);
+			background: linear-gradient(to right, #06C9A2 0%,#06C9A2 20%,#000000 80%,#000000 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06c9a2', endColorstr='#000000',GradientType=1 );
+
+			height: 200px;
+			position: relative;
+		}
+		.back2{
+			background: #06c0e5;
+			background: -moz-linear-gradient(left,  #06C0E5 0%, #06C0E5 20%, #000000 80%, #000000 100%);
+			background: -webkit-linear-gradient(left,  #06C0E5 0%,#06C0E5 20%,#000000 80%,#000000 100%);
+			background: linear-gradient(to right,  #06C0E5 0%,#06C0E5 20%,#000000 80%,#000000 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06c0e5', endColorstr='#000000',GradientType=1 );
+
+
+			height: 200px;
+			position: relative;
+		}
+		.back3{
+			background: #f2cf07;
+			background: -moz-linear-gradient(left,  #F2CF07 0%, #F2CF07 20%, #000000 80%, #000000 100%);
+			background: -webkit-linear-gradient(left,  #F2CF07 0%,#F2CF07 20%,#000000 80%,#000000 100%);
+			background: linear-gradient(to right,  #F2CF07 0%,#F2CF07 20%,#000000 80%,#000000 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2cf07', endColorstr='#000000',GradientType=1 );
+
+
+			height: 200px;
+			position: relative;
+		}
+				.img{
+					position: absolute;
+					top: 0;
+					right: 0;
+				}
+
+		.block{
+			min-height: 300px;
+			background-color: white;
+			width: 90%;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 3%;
+			margin-bottom: 3%;
+			padding: 2%;
+			border-radius: 20px;
+			box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		}
+		.about{
+			min-height: 300px;
+			background-color: white;
+			width: 90%;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 3%;
+			margin-bottom: 3%;
+			padding: 2%;
+			border-radius: 20px;
+			box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+		}
+				.text{
+					font-size: 20px;
+					font-family: Tahoma;
+					margin: 25px;
+					font-weight: 10;
+			
+				}
+
+.foot{
+	width: 100%;
+	height: 100px;
+	background-color: #2c3632;
+	position: relative;
+	color: white;
+	text-align: center;
+	font-weight: 400;
+	font-size: 25px;
+}
+		.t2020{
+			margin-top: -3%;
+			padding-top: 20px;
+		}
